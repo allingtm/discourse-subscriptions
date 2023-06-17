@@ -88,8 +88,7 @@ module DiscourseSubscriptions
               items: [{ price: params[:plan] }],
               metadata: metadata_user,
               trial_period_days: trial_days,
-              promotion_code: promo_code_id,
-              automatic_tax: { automatic_tax.enabled: true}
+              promotion_code: promo_code_id
             )
 
           payment_intent = retrieve_payment_intent(transaction[:latest_invoice]) if transaction[

@@ -2,7 +2,7 @@
 
 # name: discourse-subscriptions
 # about: Integrates Stripe into Discourse to allow visitors to subscribe, and adds vat.
-# version: 2.8.1a
+# version: 2.8.1
 # url: https://github.com/allingtm/discourse-subscriptions
 # authors: Rimian Perkins, Justin DiRose, Marc Allington
 # transpile_js: true
@@ -62,8 +62,8 @@ after_initialize do
   ::Stripe.api_version = "2020-08-27"
 
   ::Stripe.set_app_info(
-    "Discourse Subscriptions + VAT",
-    version: "2.8.1a",
+    "Discourse Subscriptions VAT",
+    version: "2.8.1",
     url: "https://github.com/allingtm/discourse-subscriptions",
   )
 
