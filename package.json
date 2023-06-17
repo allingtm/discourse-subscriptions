@@ -1,7 +1,7 @@
 {
   "name": "discourse-subscriptions",
   "version": "1.0.0",
-  "repository": "https://github.com/discourse/discourse-subscriptions",
+  "repository": "https://github.com/allingtm/discourse-subscriptions",
   "author": "Discourse",
   "license": "MIT",
   "devDependencies": {
