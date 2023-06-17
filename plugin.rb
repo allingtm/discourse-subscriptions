@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 # name: discourse-subscriptions
-# about: Integrates Stripe into Discourse to allow visitors to subscribe
-# version: 2.8.1
-# url: https://github.com/discourse/discourse-subscriptions
-# authors: Rimian Perkins, Justin DiRose
+# about: Integrates Stripe into Discourse to allow visitors to subscribe, and adds vat.
+# version: 2.8.1a
+# url: https://github.com/allingtm/discourse-subscriptions
+# authors: Rimian Perkins, Justin DiRose, Marc Allington
 # transpile_js: true
 
 enabled_site_setting :discourse_subscriptions_enabled
