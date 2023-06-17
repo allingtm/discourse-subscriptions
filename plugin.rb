@@ -62,7 +62,7 @@ after_initialize do
   ::Stripe.api_version = "2020-08-27"
 
   ::Stripe.set_app_info(
-    "Discourse Subscriptions VAT",
+    "Discourse Subscriptions VAT.",
     version: "2.8.1",
     url: "https://github.com/allingtm/discourse-subscriptions",
   )
